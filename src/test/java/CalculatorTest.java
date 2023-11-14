@@ -16,8 +16,7 @@ public class CalculatorTest {
         int a = 1;
         int b = 2;
         int expectedResult = 0;
-        Assert.assertNotEquals(expectedResult, Main.add(a,
-                b));
+        Assert.assertNotEquals(expectedResult, Main.add(a, b));
     }
 
     @Test
